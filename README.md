@@ -1,3 +1,3 @@
-# hw-05 (HTML)
+# hw-06 (HTML)
 
 This is my first project
