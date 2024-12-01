@@ -29,15 +29,20 @@
           <a class="logo header-logo" href="./index.html"
             >Web<span class="logo-black">Studio</span>
           </a>
+          <button class="mob-menu-btn" type="button">
+            <svg class="" width="24" height="24">
+              <use href="./images/icons.svg#icon-burger-menu"></use>
+            </svg>
+          </button>
           <ul class="header-list">
             <li class="header-item">
               <a class="header-link active" href="./index.html">Studio</a>
             </li>
             <li class="header-item">
-              <a class="header-link" href="">Portfolio</a>
+              <a class="header-link" href="#portfolio">Portfolio</a>
             </li>
             <li class="header-item">
-              <a class="header-link" href="">Contacts</a>
+              <a class="header-link" href="#contacts">Contacts</a>
             </li>
           </ul>
         </nav>
@@ -65,6 +70,7 @@
           <button class="button" type="button">Order Service</button>
         </div>
       </section>
+
       <!-- Section Benefits -->
       <section class="section benefits-title">
         <div class="container">
@@ -121,6 +127,7 @@
           </ul>
         </div>
       </section>
+
       <!-- Section Team-->
       <section class="section wrapper-team">
         <div class="container">
@@ -401,6 +408,7 @@
           </ul>
         </div>
       </section>
+
       <!-- Section Portfolio -->
       <section class="section portfolio">
         <div class="container">
@@ -621,8 +629,9 @@
         </div>
       </div>
     </footer>
+
     <!-- Modal Window -->
-    <div class="modal-overlay">
+    <div class="modal-overlay hidden">
       <div class="modal">
         <button class="btn-close" type="button" name="close">
           <svg class="icon-close" width="8" height="8">
@@ -703,6 +712,94 @@
           <button class="modal-btn" type="submit">Send</button>
         </form>
       </div>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+      <button class="btn-close" type="button">
+        <svg class="icon-close" width="8" height="8">
+          <use href="./images/icons.svg#icon-close"></use>
+        </svg>
+      </button>
+      <ul class="mob-menu-list">
+        <li>
+          <a class="mob-menu-link" href="./index.html"
+            ><span class="mob-link-color">Studio</span></a
+          >
+        </li>
+        <li>
+          <a class="mob-menu-link" href="#portfolio">Portfolio</a>
+        </li>
+        <li>
+          <a class="mob-menu-link" href="#contacts">Contacts</a>
+        </li>
+      </ul>
+      <ul class="mob-address-list">
+        <li>
+          <a class="mob-address-link tel-color" href="tel:+110001111111"
+            >+11 (000) 111-11-11</a
+          >
+        </li>
+        <li>
+          <a class="mob-address-link" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+      </ul>
+      <ul class="social-mob-menu">
+        <li class="social-item">
+          <a
+            class="social-link footer-link"
+            href="https://www.instagram.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Link to Instagram"
+          >
+            <svg class="social-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-instagram-2"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="social-item">
+          <a
+            class="social-link footer-link"
+            href="https://www.twitter.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Link to Twitter"
+          >
+            <svg class="social-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-twitter-1"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="social-item">
+          <a
+            class="social-link footer-link"
+            href="https://www.facebook.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Link to Facebook"
+          >
+            <svg class="social-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-facebook-1"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="social-item">
+          <a
+            class="social-link footer-link"
+            href="https://www.linkedin.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Link to Linkedin"
+          >
+            <svg class="social-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-linkedin-1"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
     </div>
   </body>
 </html>
