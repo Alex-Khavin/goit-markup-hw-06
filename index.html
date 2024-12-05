@@ -67,7 +67,9 @@
       <section class="hero">
         <div class="container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
-          <button class="button" type="button">Order Service</button>
+          <button class="button" type="button" data-modal-open>
+            Order Service
+          </button>
         </div>
       </section>
 
@@ -803,9 +805,9 @@
     </footer>
 
     <!-- Modal Window -->
-    <div class="modal-overlay">
+    <div class="modal-overlay" data-modal>
       <div class="modal">
-        <button class="btn-close" type="button" name="close">
+        <button class="btn-close" type="button" name="close" data-modal-close>
           <svg class="icon-close" width="8" height="8">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
@@ -981,7 +983,6 @@
         </li>
       </ul>
     </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
-
-<<!-- Test -->
